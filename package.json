@@ -22,13 +22,6 @@
     "argon2/src/thread.h"
   ],
   "types": "argon2.d.ts",
-  "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
-    "lint": "standard --verbose",
-    "test": "nyc mocha test/test.js",
-    "test:ts": "tsc -p . && node test/test-d.js",
-    "postinstall": "opencollective-postinstall || true"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ranisalt/node-argon2.git"
