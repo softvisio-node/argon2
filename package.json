@@ -37,10 +37,9 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@phc/format": "^1.0.0",
-        "node-addon-api": "^3.0.0",
-        "node-pre-gyp": "^0.15.0",
-        "opencollective-postinstall": "^2.0.3"
+        "@phc/format": ">=1.0.0",
+        "node-addon-api": ">=3.0.0",
+        "node-pre-gyp": ">=0.15.0"
     },
     "engines": {
         "node": ">=14.7.0",
