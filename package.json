@@ -2,7 +2,7 @@
     "name": "@softvisio/argon2",
     "version": "0.1.1",
     "private": true,
-    "description": "An Argon2 library for Node",
+    "description": "Argon2 re-packed",
     "keywords": [
         "argon2",
         "crypto",
