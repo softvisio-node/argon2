@@ -1,5 +1,5 @@
 {
-  "name": "argon2",
+  "name": "@softvisio/argon2",
   "version": "0.27.0",
   "description": "An Argon2 library for Node",
   "main": "argon2.js",
