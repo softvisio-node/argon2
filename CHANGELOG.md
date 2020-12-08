@@ -1,3 +1,7 @@
+## 0.1.2 (2020-12-08)
+
+-   desciption updated
+
 ## 0.1.1 (2020-12-08)
 
 -   pre-gyp requirements fixed
