@@ -1,3 +1,7 @@
+## 0.2.1 (2020-12-12)
+
+-   use shrinkwrap
+
 ## 0.2.0 (2020-12-12)
 
 -   meta data updated
