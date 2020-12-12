@@ -1,3 +1,10 @@
+## 0.2.0 (2020-12-12)
+
+-   meta data updated
+-   linux-musl build added
+-   make package public
+-   argon2 updated to v0.27.1
+
 ## 0.1.2 (2020-12-08)
 
 -   desciption updated
