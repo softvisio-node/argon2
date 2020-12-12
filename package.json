@@ -43,7 +43,7 @@
         "node-pre-gyp": ">=0.17.0"
     },
     "devDependencies": {
-        "argon2": ">=0.27.0"
+        "argon2": ">=0.27.1"
     },
     "engines": {
         "node": ">=14.7.0",
