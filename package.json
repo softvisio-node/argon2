@@ -9,16 +9,17 @@
         "hashing",
         "password"
     ],
-    "homepage": "https://github.com/ranisalt/node-argon2#readme",
+    "homepage": "https://bitbucket.org/softvisio/softvisio-argon2",
     "bugs": {
-        "url": "https://github.com/ranisalt/node-argon2/issues"
+        "url": "https://bitbucket.org/softvisio/softvisio-argon2/issues",
+        "email": "zdm@softvisio.net"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ranisalt/node-argon2.git"
+        "url": "https://bitbucket.org/softvisio/softvisio-argon2.git"
     },
-    "license": "MIT",
-    "author": "Ranieri Althoff <ranisalt+argon2@gmail.com>",
+    "license": "ISC",
+    "author": "<zdm@softvisio.net>",
     "exports": {
         ".": "./argon2.js"
     },
