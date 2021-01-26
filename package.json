@@ -23,7 +23,6 @@
     "exports": {
         ".": "./argon2.js"
     },
-    "main": "argon2.js",
     "binary": {
         "module_name": "argon2",
         "module_path": "./lib/binding/napi-v{napi_build_version}-{platform}-{arch}-{libc}",
