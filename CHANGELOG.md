@@ -1,3 +1,7 @@
+## 0.3.7 (2021-01-27)
+
+-   main entry point added
+
 ## 0.3.6 (2021-01-27)
 
 -   deps updated
