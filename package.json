@@ -23,7 +23,6 @@
     "exports": {
         ".": "./argon2.js"
     },
-    "main": "argon2.js",
     "binary": {
         "module_name": "argon2",
         "module_path": "./lib/binding/napi-v{napi_build_version}-{platform}-{arch}-{libc}",
@@ -38,13 +37,16 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@phc/format": ">=1.0.0",
-        "node-addon-api": ">=3.1.0",
-        "node-pre-gyp": ">=0.17.0"
+        "@phc/format": "^1.0.0",
+        "node-addon-api": "^3.1.0",
+        "node-pre-gyp": "^0.17.0"
+    },
+    "devDependencies": {
+        "argon2": "^0.27.1"
     },
     "engines": {
         "node": ">=15.7.0",
-        "npm": ">=7"
+        "npm": ">=7.4.3"
     },
     "lint": [
         "**"
