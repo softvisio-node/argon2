@@ -1,3 +1,9 @@
+## 1.1.0 (2021-02-11)
+
+### Raw commits log
+
+-   node-pre-gyp updated to @mapbox/node-pre-gyp;
+
 ## 1.0.1 (2021-01-31)
 
 -   package-lock disabled
