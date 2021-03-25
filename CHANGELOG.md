@@ -1,3 +1,9 @@
+## 1.1.1 (2021-03-25)
+
+### Raw commits log
+
+-   linted;
+
 ## 1.1.0 (2021-02-11)
 
 ### Raw commits log
