@@ -1,3 +1,9 @@
+## 1.1.2 (2021-03-31)
+
+### Raw commits log
+
+-   bin updated;
+
 ## 1.1.1 (2021-03-25)
 
 ### Raw commits log
