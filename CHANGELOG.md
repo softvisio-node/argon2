@@ -1,3 +1,9 @@
+## 1.1.3 (2021-04-12)
+
+### Raw commits log
+
+-   dev deps removed;
+
 ## 1.1.2 (2021-03-31)
 
 ### Raw commits log
