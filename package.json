@@ -34,9 +34,6 @@
             3
         ]
     },
-    "scripts": {
-        "lint": "softvisio-cli lint"
-    },
     "dependencies": {
         "@mapbox/node-pre-gyp": "^1.0.0",
         "@phc/format": "^1.0.0",
