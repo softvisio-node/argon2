@@ -23,10 +23,12 @@ const defaults = Object.freeze( {
 const bindingsHash = promisify( _hash );
 const generateSalt = promisify( randomBytes );
 
-const assertLimits = options => ( [key, { max, min }] ) => {
-    const value = options[key];
-    assert( min <= value && value <= max, `Invalid ${key}, must be between ${min} and ${max}.` );
-};
+const assertLimits =
+    options =>
+        ( [key, { max, min }] ) => {
+            const value = options[key];
+            assert( min <= value && value <= max, `Invalid ${key}, must be between ${min} and ${max}.` );
+        };
 
 const hash = async ( plain, { raw, salt, ...options } = {} ) => {
     options = { ...defaults, ...options };
