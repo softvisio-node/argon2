@@ -9,14 +9,14 @@
         "hashing",
         "password"
     ],
-    "homepage": "https://bitbucket.org/softvisio/softvisio-argon2",
+    "homepage": "https://github.com/softvisio/argon2",
     "bugs": {
-        "url": "https://bitbucket.org/softvisio/softvisio-argon2/issues",
+        "url": "https://github.com/softvisio/argon2/issues",
         "email": "zdm@softvisio.net"
     },
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/softvisio/softvisio-argon2.git"
+        "url": "https://github.com/softvisio/argon2.git"
     },
     "license": "ISC",
     "author": "<zdm@softvisio.net>",
