@@ -1,48 +1,48 @@
 ## 1.2.1 (2021-06-02)
 
-### Raw commits log
+**Raw commits log**
 
 -   v0.28.1;
 
 ## 1.2.0 (2021-06-02)
 
-### Raw commits log
+**Raw commits log**
 
 -   v0.28.0;
 
 ## 1.1.5 (2021-06-01)
 
-### Raw commits log
+**Raw commits log**
 
 -   lint config removed;
 
 ## 1.1.4 (2021-05-19)
 
-### Raw commits log
+**Raw commits log**
 
 -   lint script removed;
 
 ## 1.1.3 (2021-04-12)
 
-### Raw commits log
+**Raw commits log**
 
 -   dev deps removed;
 
 ## 1.1.2 (2021-03-31)
 
-### Raw commits log
+**Raw commits log**
 
 -   bin updated;
 
 ## 1.1.1 (2021-03-25)
 
-### Raw commits log
+**Raw commits log**
 
 -   linted;
 
 ## 1.1.0 (2021-02-11)
 
-### Raw commits log
+**Raw commits log**
 
 -   node-pre-gyp updated to @mapbox/node-pre-gyp;
 
