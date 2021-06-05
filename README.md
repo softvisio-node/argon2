@@ -3,5 +3,5 @@
 ## NPM
 
 ```
-npm i bitbucket:softvisio/softvisio-argon2#latest
+npm i @softvisio/argon2
 ```
