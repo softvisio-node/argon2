@@ -1,120 +1,122 @@
-## 1.2.2 (2021-06-05)
+# Changelog
 
-**Raw commits log**
+### 1.2.2 (2021-06-05)
+
+Changed:
 
 -   moved to github;
 -   changelog updated;
 
-## 1.2.1 (2021-06-02)
+### 1.2.1 (2021-06-02)
 
-**Raw commits log**
+Changed:
 
 -   v0.28.1;
 
-## 1.2.0 (2021-06-02)
+### 1.2.0 (2021-06-02)
 
-**Raw commits log**
+Changed:
 
 -   v0.28.0;
 
-## 1.1.5 (2021-06-01)
+### 1.1.5 (2021-06-01)
 
-**Raw commits log**
+Changed:
 
 -   lint config removed;
 
-## 1.1.4 (2021-05-19)
+### 1.1.4 (2021-05-19)
 
-**Raw commits log**
+Changed:
 
 -   lint script removed;
 
-## 1.1.3 (2021-04-12)
+### 1.1.3 (2021-04-12)
 
-**Raw commits log**
+Changed:
 
 -   dev deps removed;
 
-## 1.1.2 (2021-03-31)
+### 1.1.2 (2021-03-31)
 
-**Raw commits log**
+Changed:
 
 -   bin updated;
 
-## 1.1.1 (2021-03-25)
+### 1.1.1 (2021-03-25)
 
-**Raw commits log**
+Changed:
 
 -   linted;
 
-## 1.1.0 (2021-02-11)
+### 1.1.0 (2021-02-11)
 
-**Raw commits log**
+Changed:
 
 -   node-pre-gyp updated to @mapbox/node-pre-gyp;
 
-## 1.0.1 (2021-01-31)
+### 1.0.1 (2021-01-31)
 
 -   package-lock disabled
 
-## 1.0.0 (2021-01-31)
+### 1.0.0 (2021-01-31)
 
-## 0.3.7 (2021-01-27)
+### 0.3.7 (2021-01-27)
 
 -   main entry point added
 
-## 0.3.6 (2021-01-27)
+### 0.3.6 (2021-01-27)
 
 -   deps updated
 
-## 0.3.5 (2021-01-27)
+### 0.3.5 (2021-01-27)
 
 -   deps updated
 
-## 0.3.4 (2021-01-27)
+### 0.3.4 (2021-01-27)
 
 -   deps updated
 
-## 0.3.3 (2021-01-26)
+### 0.3.3 (2021-01-26)
 
 -   deps updated
 
-## 0.3.2 (2021-01-26)
+### 0.3.2 (2021-01-26)
 
 -   deps updated
 
-## 0.3.1 (2021-01-26)
+### 0.3.1 (2021-01-26)
 
 -   deps updated
 
-## 0.3.0 (2021-01-26)
+### 0.3.0 (2021-01-26)
 
 -   migrated to node v15
 
-## 0.2.2 (2020-12-30)
+### 0.2.2 (2020-12-30)
 
 -   deps updated
 
-## 0.2.1 (2020-12-12)
+### 0.2.1 (2020-12-12)
 
 -   use shrinkwrap
 
-## 0.2.0 (2020-12-12)
+### 0.2.0 (2020-12-12)
 
 -   meta data updated
 -   linux-musl build added
 -   make package public
 -   argon2 updated to v0.27.1
 
-## 0.1.2 (2020-12-08)
+### 0.1.2 (2020-12-08)
 
 -   desciption updated
 
-## 0.1.1 (2020-12-08)
+### 0.1.1 (2020-12-08)
 
 -   pre-gyp requirements fixed
 
-## 0.1.0 (2020-12-08)
+### 0.1.0 (2020-12-08)
 
 -   deps updated
 -   repacked
