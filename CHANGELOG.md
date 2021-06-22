@@ -1,5 +1,15 @@
 # Changelog
 
+### 1.2.3 (2021-06-22)
+
+Changed:
+
+-   argon v0.28.2;
+
+Fixed:
+
+-   changelog updated;
+
 ### 1.2.2 (2021-06-05)
 
 Changed:
