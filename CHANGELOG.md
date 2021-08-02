@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.2.5 (2021-08-02)
+
+Fixed:
+
+-   deps updated
+
 ### 1.2.4 (2021-07-12)
 
 Fixed:
