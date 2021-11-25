@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.0 (2021-11-25)
+
+Features:
+
+-   feat: argon2 v0.28.3
+
 ### 1.2.5 (2021-08-02)
 
 Fixed:
