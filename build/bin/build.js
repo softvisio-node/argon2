@@ -7,6 +7,7 @@ import GitHubApi from "#core/api/github";
 import File from "#core/file";
 import fs from "fs";
 import zlib from "zlib";
+import glob from "#core/glob";
 
 const REPO = "softvisio/argon2";
 const TAG = "data";
@@ -19,12 +20,14 @@ const gitHubApi = new GitHubApi( process.env.GITHUB_TOKEN );
 const release = await gitHubApi.getReleaseByTagName( REPO, TAG );
 if ( !release.ok ) process.exit( 1 );
 
-const res = await gitHubApi.updateReleaseAsset( REPO, release.data.id, await repack( path.join( cwd, "lib/binding/napi-v3/argon2.node" ) ) );
-
-if ( !res.ok ) process.exit( 1 );
+for ( const file of glob( "lib/binding/*/*.node", { cwd, "sync": true } ) ) {
+    const res = await gitHubApi.updateReleaseAsset( REPO, release.data.id, await repack( path.join( cwd, file ) ) );
+    if ( !res.ok ) process.exit( 1 );
+}
 
 async function repack ( _path ) {
-    const name = `napi-v3-${process.platform}-${process.arch}.node.gz`;
+    const napi = path.basename( path.dirname( _path ) ),
+        name = `${napi}-${process.platform}-${process.arch}.node.gz`;
 
     return new Promise( resolve => {
         fs.createReadStream( _path )
