@@ -2,7 +2,5 @@
 /data/
 /wiki/
 
-# node
-/node_modules/
-
+/build/
 /lib/binaries/
