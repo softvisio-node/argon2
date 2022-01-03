@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.1 (2022-01-03)
+
+Fixes:
+
+-   fix: napi version parse
+
 ### 1.4.0 (2022-01-03)
 
 Features:
