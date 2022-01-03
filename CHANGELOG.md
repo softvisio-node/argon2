@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.0 (2022-01-03)
+
+Features:
+
+-   feat: bindings
+
 ### 1.3.0 (2021-11-25)
 
 Features:
