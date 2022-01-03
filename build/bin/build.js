@@ -8,12 +8,16 @@ import File from "#core/file";
 import fs from "fs";
 import zlib from "zlib";
 import glob from "#core/glob";
+import childProcess from "child_process";
 
 const REPO = "softvisio/argon2";
 const TAG = "data";
 
 // find uws location
 const cwd = path.dirname( resolve( "argon2/package.json", import.meta.url ) );
+
+// install argon2 deps
+childProcess.spawnSync( "npm", ["i"], { cwd, "shell": true, "stdio": "inherit" } );
 
 const gitHubApi = new GitHubApi( process.env.GITHUB_TOKEN );
 
