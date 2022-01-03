@@ -21,23 +21,13 @@
     "license": "ISC",
     "author": "<zdm@softvisio.net>",
     "exports": {
-        ".": "./argon2.js"
+        ".": "./lib/argon2.js"
     },
-    "main": "./argon2.js",
-    "binary": {
-        "module_name": "argon2",
-        "module_path": "./lib/binding/napi-v{napi_build_version}-{platform}-{arch}-{libc}",
-        "remote_path": "v{version}",
-        "package_name": "{module_name}-v{version}-napi-v{napi_build_version}-{platform}-{arch}-{libc}.tar.gz",
-        "host": "https://github.com/ranisalt/node-argon2/releases/download/",
-        "napi_versions": [
-            3
-        ]
+    "scripts": {
+        "install": "node bin/install.mjs"
     },
     "dependencies": {
-        "@mapbox/node-pre-gyp": "^1.0.0",
-        "@phc/format": "^1.0.0",
-        "node-addon-api": "^4.0.0"
+        "@phc/format": "^1.0.0"
     },
     "engines": {
         "node": ">=15.7.0",
