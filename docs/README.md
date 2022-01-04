@@ -1,12 +1,10 @@
 # Introduction
 
-Repacked [argon2](https://www.npmjs.com/package/argon2) package.
-
-Installs both `windows` and `linux` binary dependencies, that is useful for run installed package from `vmware` shared folders.
+Repacked version of [argon2](https://www.npmjs.com/package/argon2).
 
 For the full documentation refer to the original repository [https://github.com/ranisalt/node-argon2#readme](https://github.com/ranisalt/node-argon2#readme).
 
-[https://github.com/softvisio/argon2/releases/tag/data](https://github.com/softvisio/argon2/releases/tag/data)
+Pre-compiled binaries: [https://github.com/softvisio/argon2/releases/tag/data](https://github.com/softvisio/argon2/releases/tag/data).
 
 ## Install
 
