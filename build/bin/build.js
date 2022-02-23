@@ -9,6 +9,9 @@ import fs from "fs";
 import zlib from "zlib";
 import glob from "#core/glob";
 import childProcess from "child_process";
+import env from "#core/env";
+
+env.loadUserEnv();
 
 const REPO = "softvisio/argon2";
 const TAG = "data";
