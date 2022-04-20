@@ -35,7 +35,7 @@ jobs:
           check-latest: true
       - run: |
           echo ==============================================================
-          node --verion
+          node --version
           cd build
           npm i --ignore-scripts
           npm run build
