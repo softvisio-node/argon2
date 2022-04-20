@@ -24,15 +24,18 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
         node-version: [latest]
         architecture: [x64]
-    name: build on ${{ matrix.os }}.${{ matrix.architecture }} node v${{ matrix.node-version }}
+    name: build on ${{ matrix.os }} ${{ matrix.architecture }} node ${{ matrix.node-version }}
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          # node-version: ${{ matrix.node-version }}
           architecture: ${{ matrix.architecture }}
+          check-latest: true
       - run: |
+          echo ==============================================================
+          node --verion
           cd build
           npm i --ignore-scripts
           npm run build
