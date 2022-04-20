@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.10 (2022-04-20)
+
+Fixes:
+
+-   fix: github action
+
 ### 1.4.9 (2022-04-20)
 
 Fixes:
