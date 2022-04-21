@@ -20,7 +20,7 @@ const TAG = "data";
 const cwd = path.dirname( resolve( "argon2/package.json", import.meta.url ) );
 
 // install argon2 deps
-const res = childProcess.spawnSync( "npm", ["i"], { cwd, "stdio": "inherit" } );
+const res = childProcess.spawnSync( "npm", ["i"], { cwd, "shell": true, "stdio": "inherit" } );
 if ( res.status ) process.exit( res.status );
 
 const gitHubApi = new GitHubApi( process.env.GITHUB_TOKEN );
