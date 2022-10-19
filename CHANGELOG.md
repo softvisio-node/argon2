@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.19 (2022-10-19)
+
+Fixes:
+
+-   fix: http keep-alive workaround
+
 ### 1.4.18 (2022-10-14)
 
 Fixes:
