@@ -11,6 +11,8 @@ await get( url, `napi-v3-${process.platform}-${process.arch}.node` );
 // under windows download linux binaries for vmware
 if ( process.platform === "win32" ) await get( url, `napi-v3-linux-${process.arch}.node` );
 
+process.exit();
+
 async function get ( url, file ) {
     process.stdout.write( `Downloading: ${file} ... ` );
 
