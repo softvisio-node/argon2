@@ -45,6 +45,6 @@ async function repack ( _path ) {
         fs.createReadStream( _path )
             .pipe( zlib.createGzip() )
             .buffer()
-            .then( buffer => resolve( new File( { name, "content": buffer } ) ) );
+            .then( buffer => resolve( new File( { name, buffer } ) ) );
     } );
 }
