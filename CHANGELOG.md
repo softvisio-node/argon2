@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.0 (2022-12-21)
+
+Features:
+
+-   feat: file constructor buffer
+
 ### 1.4.19 (2022-10-19)
 
 Fixes:
