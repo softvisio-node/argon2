@@ -4,7 +4,7 @@ import https from "https";
 import zlib from "zlib";
 import fs from "fs";
 
-const url = new URL( "https://github.com/softvisio/argon2/releases/download/data/" );
+const url = new URL( "https://github.com/softvisio-node/argon2/releases/download/data/" );
 
 await get( url, `napi-v3-${process.platform}-${process.arch}.node` );
 

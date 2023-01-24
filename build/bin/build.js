@@ -13,7 +13,7 @@ import env from "#core/env";
 
 env.loadUserEnv();
 
-const REPO = "softvisio/argon2";
+const REPO = "softvisio-node/argon2";
 const TAG = "data";
 
 // find uws location
