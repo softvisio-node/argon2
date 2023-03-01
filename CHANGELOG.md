@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.3 (2023-03-01)
+
+Fixes:
+
+-   fix: glob api
+
 ### 1.5.2 (2023-01-24)
 
 Fixes:
