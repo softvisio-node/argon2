@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.5 (2023-05-20)
+
+Fixes:
+
+-   fix: update script
+
 ### 1.5.4 (2023-03-23)
 
 Fixes:
