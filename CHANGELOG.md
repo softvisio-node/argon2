@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.6 (2023-06-07)
+
+Fixes:
+
+-   fix: handle install error
+
 ### 1.5.5 (2023-05-20)
 
 Fixes:
