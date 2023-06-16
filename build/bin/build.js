@@ -32,7 +32,7 @@ const gitHubApi = new GitHubApi( process.env.GITHUB_TOKEN );
 const release = await gitHubApi.getReleaseByTagName( REPO, TAG );
 if ( !release.ok ) process.exit( 1 );
 
-for ( const file of glob( "/lib/binding/*/*.node", { cwd } ) ) {
+for ( const file of glob( "lib/binding/*/*.node", { cwd } ) ) {
     const res = await gitHubApi.updateReleaseAsset( REPO, release.data.id, await repack( path.join( cwd, file ) ) );
     if ( !res.ok ) process.exit( 1 );
 }
