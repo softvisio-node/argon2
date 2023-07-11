@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.5.11 (2023-07-11)
+
+Fixes:
+
+-   fix: resources
+-   fix: string location
+
 ### 1.5.10 (2023-07-06)
 
 Fixes:
