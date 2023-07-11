@@ -19,7 +19,7 @@ const res = childProcess.spawnSync( "npm", ["i"], {
 } );
 if ( res.status ) process.exit( res.status );
 
-const id = "softvisio-node/argin2/resources";
+const id = "softvisio-node/argon2/resources";
 
 const meta = { "version": readConfig( cwd + "/package.json" ).version };
 
