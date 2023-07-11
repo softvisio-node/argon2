@@ -1,20 +1,12 @@
 #!/usr/bin/env node
 
-import "#core/stream";
 import { resolve } from "#core/utils";
 import path from "path";
-import GitHubApi from "#core/api/github";
-import File from "#core/file";
 import fs from "fs";
-import zlib from "zlib";
 import glob from "#core/glob";
 import childProcess from "child_process";
-import env from "#core/env";
-
-env.loadUserEnv();
-
-const REPO = "softvisio-node/argon2";
-const TAG = "data";
+import ExternalResourcesBuilder from "#core/external-resources/builder";
+import { readConfig } from "#core/config";
 
 // find uws location
 const cwd = path.dirname( resolve( "argon2/package.json", import.meta.url ) );
@@ -27,24 +19,43 @@ const res = childProcess.spawnSync( "npm", ["i"], {
 } );
 if ( res.status ) process.exit( res.status );
 
-const gitHubApi = new GitHubApi( process.env.GITHUB_TOKEN );
+const id = "softvisio-node/argin2/resources";
 
-const release = await gitHubApi.getReleaseByTagName( REPO, TAG );
-if ( !release.ok ) process.exit( 1 );
+const meta = { "version": readConfig( cwd + "/package.json" ).version };
 
-for ( const file of glob( "lib/binding/*/*.node", { cwd } ) ) {
-    const res = await gitHubApi.updateReleaseAsset( REPO, release.data.id, await repack( path.join( cwd, file ) ) );
-    if ( !res.ok ) process.exit( 1 );
+class ExternalResource extends ExternalResourcesBuilder {
+    #file;
+    #name;
+
+    constructor ( file, name ) {
+        super( id + "/" + name );
+
+        this.#file = file;
+        this.#name = name;
+    }
+
+    async _getEtag () {
+        return result( 200, await this._getFileHash( this.#file ) );
+    }
+
+    async _build ( location ) {
+        fs.copyFileSync( this.#file, location + "/" + this.#name );
+
+        return result( 200 );
+    }
+
+    async _getMeta () {
+        return meta;
+    }
 }
 
-async function repack ( _path ) {
-    const napi = path.basename( path.dirname( _path ) ),
-        name = `${napi}-${process.platform}-${process.arch}.node.gz`;
+for ( const file of glob( "lib/binding/*/*.node", { cwd } ) ) {
+    const napi = path.basename( path.dirname( file ) ),
+        name = `${napi}-${process.platform}-${process.arch}.node`;
 
-    return new Promise( resolve => {
-        fs.createReadStream( _path )
-            .pipe( zlib.createGzip() )
-            .buffer()
-            .then( buffer => resolve( new File( { name, buffer } ) ) );
-    } );
+    const resource = new ExternalResource( cwd + "/" + file, name );
+
+    const res = await resource.build();
+
+    if ( !res.ok ) process.exit( 1 );
 }
