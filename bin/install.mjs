@@ -2,7 +2,7 @@
 
 import externalResources from "@softvisio/external-resources";
 
-externalResources.add( `softvisio-node/argon2/resources/napi-v3-${process.platform}-${process.arch}.node`, import.meta.url, { "location": "lib/binaries" } );
+externalResources.add( `softvisio-node/argon2/resources/napi-v3-${process.platform}-${process.arch}.node`, { "location": "lib/binaries", "resolve": import.meta.url } );
 
 // under windows download linux binaries for vmware
 if ( process.platform === "win32" ) {
