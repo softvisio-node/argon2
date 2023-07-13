@@ -37,7 +37,7 @@ if ( res.status ) process.exit( res.status );
 
 const id = "softvisio-node/argon2/resources";
 
-const meta = { "version": readConfig( cwd + "/package.json" ).version };
+const meta = { "argon2": "v" + readConfig( cwd + "/package.json" ).version };
 
 class ExternalResource extends ExternalResourcesBuilder {
     #file;
