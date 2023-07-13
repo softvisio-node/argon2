@@ -51,7 +51,7 @@ class ExternalResource extends ExternalResourcesBuilder {
     }
 
     async _getEtag () {
-        return result( 200, await this._getFileHash( this.#file ) );
+        return result( 200, "argon2:" + meta.argon2 );
     }
 
     async _build ( location ) {
