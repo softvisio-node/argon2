@@ -6,7 +6,7 @@ import path from "path";
 import fs from "fs";
 import glob from "#core/glob";
 import childProcess from "child_process";
-import ExternalResourcesBuilder from "#core/external-resources/builder";
+import ExternalResourceBuilder from "#core/external-resource-builder";
 import { readConfig } from "#core/config";
 
 const CLI = {
@@ -39,7 +39,7 @@ const id = "softvisio-node/argon2/resources";
 
 const meta = { "argon2": "v" + readConfig( cwd + "/package.json" ).version };
 
-class ExternalResource extends ExternalResourcesBuilder {
+class ExternalResource extends ExternalResourceBuilder {
     #file;
     #name;
 
