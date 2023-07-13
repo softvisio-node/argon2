@@ -9,8 +9,6 @@ const id = "softvisio-node/argon2/resources",
 
 export default class ExternalResource extends ExternalResourceBuilder {
     #cwd;
-    #file;
-    #name;
     #meta;
 
     constructor ( cwd ) {
@@ -18,7 +16,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
 
         super( id + "/" + name );
 
-        this.#cwd - cwd;
+        this.#cwd = cwd;
         this.#meta = { "argon2": "v" + readConfig( cwd + "/package.json" ).version };
     }
 
