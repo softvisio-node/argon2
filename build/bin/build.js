@@ -23,6 +23,6 @@ await Cli.parse( CLI );
 
 const cwd = path.dirname( resolve( "argon2/package.json", import.meta.url ) );
 
-const res = await ExternalResourceBuilder.build( new Argon2( cwd ), { "force": process.cli.options.force } );
+const res = await ExternalResourceBuilder.build( [new Argon2( cwd )], { "force": process.cli.options.force } );
 
 if ( !res.ok ) process.exit( 1 );
