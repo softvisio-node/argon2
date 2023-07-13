@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.24 (2023-07-13)
+
+Fixes:
+
+-   fix: ported to cjs
+
 ### 1.5.23 (2023-07-13)
 
 Fixes:
