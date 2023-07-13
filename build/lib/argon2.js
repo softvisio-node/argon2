@@ -12,7 +12,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
     #meta;
 
     constructor ( cwd ) {
-        const name = `${napi}-${process.platform}-${process.arch}.node`;
+        const name = `maspi-v${napi}-${process.platform}-${process.arch}.node`;
 
         super( id + "/" + name );
 
