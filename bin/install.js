@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import externalResources from "@softvisio/external-resources";
+import externalResources from "#core/external-resources";
 
 externalResources.add( `softvisio-node/argon2/resources/napi-v3-${process.platform}-${process.arch}.node` );
 

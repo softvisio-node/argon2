@@ -20,15 +20,20 @@
     },
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
+    "type": "module",
+    "imports": {
+        "#core/*": "@softvisio/core/*",
+        "#lib/*": "./lib/*.js"
+    },
     "exports": {
         ".": "./lib/argon2.js"
     },
     "scripts": {
-        "install": "node bin/install.mjs"
+        "install": "node bin/install.js"
     },
-    "dependencies": {
+    "peerDependencies": {
         "@phc/format": "^1.0.0",
-        "@softvisio/external-resources": "^1.1.6"
+        "@softvisio/core": "^7.36.25"
     },
     "engines": {
         "node": ">=15.7.0",
