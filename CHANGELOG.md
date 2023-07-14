@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.25 (2023-07-14)
+
+Fixes:
+
+-   fix: update defaults
+
 ### 1.5.24 (2023-07-13)
 
 Fixes:
