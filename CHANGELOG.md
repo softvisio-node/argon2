@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.28 (2023-07-16)
+
+Fixes:
+
+-   fix: resoources
+
 ### 1.5.27 (2023-07-16)
 
 Fixes:
