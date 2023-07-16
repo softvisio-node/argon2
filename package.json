@@ -1,6 +1,6 @@
 {
     "name": "@softvisio/argon2",
-    "version": "1.5.28",
+    "version": "1.5.29",
     "description": "Argon2 re-packed",
     "keywords": [
         "argon2",
