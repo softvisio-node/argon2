@@ -23,6 +23,12 @@
     "exports": {
         ".": "./lib/argon2.js"
     },
+    "files": [
+        "/bin",
+        "/lib",
+        "/resources",
+        "/src"
+    ],
     "scripts": {
         "install": "node bin/install.mjs"
     },
