@@ -34,7 +34,9 @@
         "install": "node bin/install.js"
     },
     "dependencies": {
-        "@phc/format": "^1.0.0",
+        "@phc/format": "^1.0.0"
+    },
+    "peerDependencies": {
         "@softvisio/utils": "^1.1.6"
     },
     "engines": {
