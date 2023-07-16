@@ -34,7 +34,7 @@
     },
     "dependencies": {
         "@phc/format": "^1.0.0",
-        "@softvisio/external-resources": "^1.1.6"
+        "@softvisio/utils": "^1.1.6"
     },
     "engines": {
         "node": ">=15.7.0",
