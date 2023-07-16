@@ -20,6 +20,7 @@
     },
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
+    "type": "module",
     "exports": {
         ".": "./lib/argon2.js"
     },
@@ -30,7 +31,7 @@
         "/src"
     ],
     "scripts": {
-        "install": "node bin/install.mjs"
+        "install": "node bin/install.js"
     },
     "dependencies": {
         "@phc/format": "^1.0.0",
