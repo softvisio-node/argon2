@@ -4,17 +4,12 @@ import fs from "fs";
 import glob from "#core/glob";
 import childProcess from "node:child_process";
 
-const id = "softvisio-node/argon2/resources",
-    napi = 3;
-
 export default class ExternalResource extends ExternalResourceBuilder {
     #cwd;
     #meta;
 
     constructor ( cwd ) {
-        const name = `napi-v${napi}-${process.platform}-${process.arch}.node`;
-
-        super( id + "/" + name );
+        super( ["softvisio-node/argon2/resources", { "napi": 3 }] );
 
         this.#cwd = cwd;
         this.#meta = { "argon2": "v" + readConfig( cwd + "/package.json" ).version };

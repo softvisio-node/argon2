@@ -2,11 +2,11 @@
 
 import externalResources from "@softvisio/utils/external-resources";
 
-externalResources.add( `softvisio-node/argon2/resources/napi-v3-${process.platform}-${process.arch}.node` );
+externalResources.add( "softvisio-node/argon2/resources", { "napi": 3 } );
 
 // under windows download linux binaries for vmware
 if ( process.platform === "win32" ) {
-    externalResources.add( `softvisio-node/argon2/resources/napi-v3-linux-${process.arch}.node`, { "location": "lib/binaries", "resolve": import.meta.url } );
+    externalResources.add( "softvisio-node/argon2/resources", { "napi": 3, "platform": "linux" } );
 }
 
 const res = await externalResources.update( {
