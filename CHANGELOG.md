@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.31 (2023-07-18)
+
+Fixes:
+
+-   fix: resource name builder
+
 ### 1.5.30 (2023-07-16)
 
 Fixes:
