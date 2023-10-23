@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.35 (2023-10-23)
+
+Fixes:
+
+-   fix: build node versions
+
 ### 1.5.34 (2023-10-20)
 
 Fixes:
