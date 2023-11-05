@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.39 (2023-11-05)
+
+Fixes:
+
+-   fix: sequental build
+
 ### 1.5.38 (2023-10-24)
 
 Fixes:
