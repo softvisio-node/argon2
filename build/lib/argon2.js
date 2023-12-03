@@ -10,7 +10,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
 
     constructor ( cwd ) {
         super( {
-            "id": "softvisio-node/argon2/resources",
+            "id": "softvisio-node/argon2",
             "napi": 3,
             "packageRoot": import.meta.url,
         } );
