@@ -24,7 +24,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
     }
 
     async _build ( location ) {
-        const res = childProcess.spawnSync( "npm", ["run", "install"], {
+        const res = childProcess.spawnSync( "npm", [ "run", "install" ], {
             "cwd": this.#cwd,
             "shell": true,
             "stdio": "inherit",
