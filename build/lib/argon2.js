@@ -36,7 +36,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
 
         if ( !files.length ) return result( 500 );
 
-        fs.copyFileSync( this.#cwd + "/" + files[0], location + "/argon2.node" );
+        fs.copyFileSync( this.#cwd + "/" + files[ 0 ], location + "/argon2.node" );
 
         return result( 200 );
     }
