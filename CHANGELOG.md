@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.48 (2024-02-21)
+
+Fixes:
+
+-   fix: require
+
 ### 1.5.47 (2024-01-24)
 
 Fixes:
