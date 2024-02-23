@@ -24,7 +24,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
     }
 
     async _build ( location ) {
-        const res = childProcess.spawnSync( "npm", [ "run", "install" ], {
+        var res = childProcess.spawnSync( "npm", [ "update" ], {
             "cwd": this.#cwd,
             "shell": true,
             "stdio": "inherit",
@@ -32,7 +32,15 @@ export default class ExternalResource extends ExternalResourceBuilder {
 
         if ( res.status ) return result( 500 );
 
-        const files = glob( "lib/binding/*/*.node", { "cwd": this.#cwd } );
+        res = childProcess.spawnSync( "npm", [ "run", "build" ], {
+            "cwd": this.#cwd,
+            "shell": true,
+            "stdio": "inherit",
+        } );
+
+        if ( res.status ) return result( 500 );
+
+        const files = glob( "build/**/argon2.node", { "cwd": this.#cwd } );
 
         if ( !files.length ) return result( 500 );
 
