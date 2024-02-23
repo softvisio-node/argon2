@@ -24,6 +24,13 @@ export default class ExternalResource extends ExternalResourceBuilder {
     }
 
     async _build ( location ) {
+        fs.copyFileSync( this.#cwd + "/prebuilds/" + process.platform + "-" + process.arch + "/argon2.glibc.node", location + "/argon2.node" );
+
+        return result( 200 );
+    }
+
+    // XXX
+    async _build1 ( location ) {
         var res = childProcess.spawnSync( "npm", [ "update" ], {
             "cwd": this.#cwd,
             "shell": true,
