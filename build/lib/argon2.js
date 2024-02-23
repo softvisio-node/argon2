@@ -30,7 +30,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
             "stdio": "inherit",
         } );
 
-        if ( res.status ) return result( 500 );
+        if ( res.status ) return result( [ 500, `npm update failed` ] );
 
         res = childProcess.spawnSync( "npm", [ "run", "build" ], {
             "cwd": this.#cwd,
@@ -38,11 +38,11 @@ export default class ExternalResource extends ExternalResourceBuilder {
             "stdio": "inherit",
         } );
 
-        if ( res.status ) return result( 500 );
+        if ( res.status ) return result( [ 500, `npm build failed` ] );
 
         const files = glob( "build/**/argon2.node", { "cwd": this.#cwd } );
 
-        if ( !files.length ) return result( 500 );
+        if ( !files.length ) return result( [ 500, `Built results not found` ] );
 
         fs.copyFileSync( this.#cwd + "/" + files[ 0 ], location + "/argon2.node" );
 
