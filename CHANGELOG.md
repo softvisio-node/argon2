@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.56 (2024-04-03)
+
+Fixes:
+
+-   fix: setup-node action
+
 ### 1.5.55 (2024-03-20)
 
 Fixes:
