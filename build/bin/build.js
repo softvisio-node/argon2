@@ -2,7 +2,7 @@
 
 import Cli from "#core/cli";
 import { resolve } from "#core/utils";
-import path from "path";
+import path from "node:path";
 import ExternalResourceBuilder from "#core/external-resource-builder";
 import Argon2 from "#lib/argon2";
 
