@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.0 (2024-08-25)
+
+Features:
+
+-   feat: argon2 v0.41.0
+
 ### 1.5.65 (2024-08-14)
 
 No notable changes since the previous release.
