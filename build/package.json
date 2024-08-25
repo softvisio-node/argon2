@@ -23,6 +23,6 @@
     },
     "dependencies": {
         "@softvisio/core": "^7.83.13",
-        "argon2": "0.40.3"
+        "argon2": "0.41.0"
     }
 }
