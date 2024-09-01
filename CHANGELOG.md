@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.1 (2024-09-01)
+
+Fixes:
+
+-   fix: argon2 v0.41.1
+
 ### 1.6.0 (2024-08-25)
 
 Features:
