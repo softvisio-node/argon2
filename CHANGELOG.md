@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.2 (2024-09-02)
+
+Fixes:
+
+-   fix: docs config
+
 ### 1.6.1 (2024-09-01)
 
 Fixes:
