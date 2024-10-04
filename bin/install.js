@@ -16,8 +16,6 @@ if ( process.platform === "win32" ) {
     } );
 }
 
-const res = await externalResources.update( {
-    "silent": false,
-} );
+const res = await externalResources.install();
 
 if ( !res.ok ) process.exit( 1 );
