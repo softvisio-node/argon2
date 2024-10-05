@@ -1,8 +1,8 @@
-import ExternalResourceBuilder from "#core/external-resource-builder";
-import { readConfig } from "#core/config";
-import fs from "node:fs";
-import glob from "#core/glob";
 import childProcess from "node:child_process";
+import fs from "node:fs";
+import { readConfig } from "#core/config";
+import ExternalResourceBuilder from "#core/external-resource-builder";
+import glob from "#core/glob";
 
 export default class ExternalResource extends ExternalResourceBuilder {
     #cwd;
