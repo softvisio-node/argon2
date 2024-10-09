@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.6.6 (2024-10-09)
+
+Fixes:
+
+-   fix: dependabot
+-   fix: install script
+
 ### 1.6.5 (2024-09-13)
 
 No notable changes since the previous release.
