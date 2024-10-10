@@ -7,10 +7,10 @@ import { resolve } from "#core/utils";
 import Argon2 from "#lib/argon2";
 
 const CLI = {
-    "title": "Update resources",
+    "title": "Build resources",
     "options": {
         "force": {
-            "description": "Force build",
+            "description": "force build",
             "default": false,
             "schema": {
                 "type": "boolean",
