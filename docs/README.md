@@ -7,7 +7,7 @@ For the full documentation refer to the original repository [https://github.com/
 ## Install
 
 ```shell
-npm i @softvisio/argon2
+npm install @softvisio/argon2
 ```
 
 ## Usage

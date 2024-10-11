@@ -1,6 +1,6 @@
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
-> :information_source: Please, see the full project documentation here: [https://softvisio-node.github.io/argon2/](https://softvisio-node.github.io/argon2/).
+> :information_source: Please, see the full project documentation here:<br>[https://softvisio-node.github.io/argon2/](https://softvisio-node.github.io/argon2/)
 
 # Introduction
 
@@ -11,7 +11,7 @@ For the full documentation refer to the original repository [https://github.com/
 ## Install
 
 ```shell
-npm i @softvisio/argon2
+npm install @softvisio/argon2
 ```
 
 ## Usage
