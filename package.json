@@ -31,7 +31,8 @@
         "/src"
     ],
     "scripts": {
-        "install": "node bin/install.js"
+        "install": "node bin/install.js",
+        "release": "softvisio-cli package release"
     },
     "dependencies": {
         "@phc/format": "^1.0.0"
