@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.8 (2024-10-16)
+
+No notable changes since the previous release.
+
+[Full list of the changes](https://github.com/softvisio-node/argon2/compare/v1.6.7...v1.6.8)
+
 ### 1.6.7 (2024-10-11)
 
 No notable changes since the previous release.
