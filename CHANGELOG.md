@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.15 (2024-10-29)
+
+Other changes:
+
+-   chore: update docs
+
+[Compare with the previous release: v1.6.14 ... v1.6.15](https://github.com/softvisio-node/argon2/compare/v1.6.14...v1.6.15)
+
 ### 1.6.14 (2024-10-24)
 
 Other changes:
