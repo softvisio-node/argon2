@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.16 (2024-11-07)
+
+Other changes:
+
+-   chore: update package metadata
+
+[Compare with the previous release: v1.6.15 ... v1.6.16](https://github.com/softvisio-node/argon2/compare/v1.6.15...v1.6.16)
+
 ### 1.6.15 (2024-10-29)
 
 Other changes:
