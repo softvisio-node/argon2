@@ -19,6 +19,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
         this.#meta = { "argon2": "v" + readConfig( cwd + "/package.json" ).version };
     }
 
+    // protected
     async _getEtag ( { etag, buildDate, meta } ) {
         return result( 200, "argon2:" + this.#meta.argon2 );
     }
