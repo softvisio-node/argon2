@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.18 (2024-11-07)
+
+Other changes:
+
+-   chore: remove duplicated builds
+
+[Compare with the previous release: v1.6.17 ... v1.6.18](https://github.com/softvisio-node/argon2/compare/v1.6.17...v1.6.18)
+
 ### 1.6.17 (2024-11-07)
 
 Other changes:
