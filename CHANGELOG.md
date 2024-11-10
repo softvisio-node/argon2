@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.19 (2024-11-10)
+
+Other changes:
+
+-   chore: chmod files
+
+[Compare with the previous release: v1.6.18 ... v1.6.19](https://github.com/softvisio-node/argon2/compare/v1.6.18...v1.6.19)
+
 ### 1.6.18 (2024-11-07)
 
 Other changes:
