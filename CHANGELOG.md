@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.20 (2024-11-11)
+
+Other changes:
+
+-   chore: refactor external resource builder
+
+[Compare with the previous release: v1.6.19 ... v1.6.20](https://github.com/softvisio-node/argon2/compare/v1.6.19...v1.6.20)
+
 ### 1.6.19 (2024-11-10)
 
 Other changes:
