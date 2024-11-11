@@ -20,7 +20,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
     }
 
     // protected
-    async _getEtag ( { etag, buildDate, meta } ) {
+    async _getEtag () {
         return result( 200, "argon2:" + this.#meta.argon2 );
     }
 
@@ -58,6 +58,6 @@ export default class ExternalResource extends ExternalResourceBuilder {
     }
 
     async _getMeta () {
-        return this.#meta;
+        return result( 200, this.#meta );
     }
 }
