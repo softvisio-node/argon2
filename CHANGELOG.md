@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.23 (2024-11-27)
+
+Other changes:
+
+- chore: remove max-parallel
+
+[Compare with the previous release: v1.6.22 ... v1.6.23](https://github.com/softvisio-node/argon2/compare/v1.6.22...v1.6.23)
+
 ### 1.6.22 (2024-11-27)
 
 Other changes:
