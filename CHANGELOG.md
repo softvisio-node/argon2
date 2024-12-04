@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.25 (2024-12-04)
+
+Other changes:
+
+- chore: update external resources path
+
+[Compare with the previous release: v1.6.24 ... v1.6.25](https://github.com/softvisio-node/argon2/compare/v1.6.24...v1.6.25)
+
 ### 1.6.24 (2024-12-04)
 
 Other changes:
