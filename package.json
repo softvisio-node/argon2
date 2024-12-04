@@ -37,6 +37,6 @@
         "@phc/format": "^1.0.0"
     },
     "peerDependencies": {
-        "@softvisio/utils": "^1.1.6"
+        "@softvisio/utils": "^2.0.0"
     }
 }
