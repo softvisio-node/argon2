@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.26 (2024-12-07)
+
+Other changes:
+
+- chore: set yaml indent to 4 spaces
+
+[Compare with the previous release: v1.6.25 ... v1.6.26](https://github.com/softvisio-node/argon2/compare/v1.6.25...v1.6.26)
+
 ### 1.6.25 (2024-12-04)
 
 Other changes:
