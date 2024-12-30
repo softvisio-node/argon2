@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.27 (2024-12-30)
+
+Other changes:
+
+- chore: add external resource autoUpdate option
+
+[Compare with the previous release: v1.6.26 ... v1.6.27](https://github.com/softvisio-node/argon2/compare/v1.6.26...v1.6.27)
+
 ### 1.6.26 (2024-12-07)
 
 Other changes:
