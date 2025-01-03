@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.7.0 (2025-01-03)
+
+Features:
+
+- feat: add async glob
+
+[Compare with the previous release: v1.6.27 ... v1.7.0](https://github.com/softvisio-node/argon2/compare/v1.6.27...v1.7.0)
+
 ### 1.6.27 (2024-12-30)
 
 Other changes:
