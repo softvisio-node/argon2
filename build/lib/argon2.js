@@ -2,7 +2,7 @@ import childProcess from "node:child_process";
 import fs from "node:fs";
 import { readConfig } from "#core/config";
 import ExternalResourceBuilder from "#core/external-resource-builder";
-import { globSync } from "#core/glob";
+import { glob } from "#core/glob";
 
 export default class ExternalResource extends ExternalResourceBuilder {
     #cwd;
@@ -48,7 +48,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
 
         if ( res.status ) return result( [ 500, `npm build failed` ] );
 
-        const files = globSync( "build/**/argon2.node", { "cwd": this.#cwd } );
+        const files = await glob( "build/**/argon2.node", { "cwd": this.#cwd } );
 
         if ( !files.length ) return result( [ 500, `Built results not found` ] );
 
