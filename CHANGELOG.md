@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.7.4 (2025-01-06)
+
+Other changes:
+
+- chore: remove linux platform installer
+
+[Compare with the previous release: v1.7.3 ... v1.7.4](https://github.com/softvisio-node/argon2/compare/v1.7.3...v1.7.4)
+
 ### 1.7.3 (2025-01-06)
 
 Other changes:
