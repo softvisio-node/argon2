@@ -12,6 +12,7 @@ externalResources.add( {
 if ( process.platform === "win32" ) {
     externalResources.add( {
         "id": "softvisio-node/argon2",
+        "location": "package",
         "napi": 3,
         "platform": "linux",
     } );
