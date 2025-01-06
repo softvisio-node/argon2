@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.7.2 (2025-01-06)
+
+Other changes:
+
+- chore: add external resource location option
+
+[Compare with the previous release: v1.7.1 ... v1.7.2](https://github.com/softvisio-node/argon2/compare/v1.7.1...v1.7.2)
+
 ### 1.7.1 (2025-01-04)
 
 Other changes:
