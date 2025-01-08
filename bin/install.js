@@ -5,6 +5,7 @@ import externalResources from "@softvisio/utils/external-resources";
 externalResources.add( {
     "id": "softvisio-node/argon2",
     "napi": 3,
+    "caller": import.meta.url,
 } );
 
 const res = await externalResources.install( {
