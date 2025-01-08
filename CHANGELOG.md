@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.7.5 (2025-01-08)
+
+Other changes:
+
+- chore: fix external resource id
+- chore: fix resource id
+
+[Compare with the previous release: v1.7.4 ... v1.7.5](https://github.com/softvisio-node/argon2/compare/v1.7.4...v1.7.5)
+
 ### 1.7.4 (2025-01-06)
 
 Other changes:
