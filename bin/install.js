@@ -2,15 +2,10 @@
 
 import externalResources from "@softvisio/utils/external-resources";
 
-externalResources.add(
-    {
-        "id": "softvisio-node/argon2",
-        "napi": 3,
-    },
-    {
-        "location": "package",
-    }
-);
+externalResources.add( {
+    "id": "softvisio-node/argon2",
+    "napi": 3,
+} );
 
 const res = await externalResources.install( {
     "force": false,
