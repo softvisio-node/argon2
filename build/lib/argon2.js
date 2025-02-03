@@ -1,6 +1,6 @@
 import childProcess from "node:child_process";
 import fs from "node:fs";
-import { readConfig } from "#core/config";
+import { readConfigSync } from "#core/config";
 import ExternalResourceBuilder from "#core/external-resource-builder";
 import { glob } from "#core/glob";
 
@@ -16,7 +16,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
         } );
 
         this.#cwd = cwd;
-        this.#meta = { "argon2": "v" + readConfig( cwd + "/package.json" ).version };
+        this.#meta = { "argon2": "v" + readConfigSync( cwd + "/package.json" ).version };
     }
 
     // protected
