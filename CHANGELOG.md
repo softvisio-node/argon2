@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.8.0 (2025-02-03)
+
+Features:
+
+- feat: refactor read / write config
+
+Compare with the previous release: [`v1.7.6...v1.8.0`](https://github.com/softvisio-node/argon2/compare/v1.7.6...v1.8.0)
+
 ### 1.7.6 (2025-01-08)
 
 Other changes:
