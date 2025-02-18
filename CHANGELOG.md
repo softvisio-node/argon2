@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.8.1 (2025-02-18)
+
+Other changes:
+
+- chore: lint
+
+Compare with the previous release: [`v1.8.0...v1.8.1`](https://github.com/softvisio-node/argon2/compare/v1.8.0...v1.8.1)
+
 ### 1.8.0 (2025-02-03)
 
 Features:

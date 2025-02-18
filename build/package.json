@@ -1,6 +1,6 @@
 {
     "name": "@softvisio/argon2-build",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "private": true,
     "homepage": "https://github.com/softvisio-node/argon2",
     "bugs": {
