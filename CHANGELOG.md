@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.8.3 (2025-02-26)
+
+Other changes:
+
+- chore: update editorconfig
+
+Compare with the previous release: [`v1.8.2...v1.8.3`](https://github.com/softvisio-node/argon2/compare/v1.8.2...v1.8.3)
+
 ### 1.8.2 (2025-02-19)
 
 Other changes:
