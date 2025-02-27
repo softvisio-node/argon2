@@ -1,7 +1,7 @@
 releasable: true
 
 subPackages:
-    - /build
+  - /build
 
 docs:
-    location: /docs
+  location: /docs
