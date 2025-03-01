@@ -2,7 +2,7 @@
     "name": "@softvisio/argon2-build",
     "version": "1.8.4",
     "private": true,
-    "homepage": "https://github.com/softvisio-node/argon2",
+    "homepage": "https://softvisio-node.github.io/argon2/",
     "bugs": {
         "url": "https://github.com/softvisio-node/argon2/issues",
         "email": "root <root@softvisio.net>"
