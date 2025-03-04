@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.8.6 (2025-03-04)
+
+Other changes:
+
+- chore: update package metadata
+
+Compare with the previous release: [`v1.8.5...v1.8.6`](https://github.com/softvisio-node/argon2/compare/v1.8.5...v1.8.6)
+
 ### 1.8.5 (2025-03-01)
 
 Other changes:
