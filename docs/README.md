@@ -6,7 +6,7 @@ For the full documentation refer to the original repository <https://github.com/
 
 ## Install
 
-```shell
+```sh
 npm install @softvisio/argon2
 ```
 
