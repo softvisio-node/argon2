@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.8.8 (2025-03-26)
+
+Other changes:
+
+- chore: update markdown code tags
+
+Compare with the previous release: [`v1.8.7...v1.8.8`](https://github.com/softvisio-node/argon2/compare/v1.8.7...v1.8.8)
+
 ### 1.8.7 (2025-03-04)
 
 Other changes:
