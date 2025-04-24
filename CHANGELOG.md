@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.9.0 (2025-04-24)
+
+Features:
+
+- feat: argon2 v0.43.0
+
+Compare with the previous release: [`v1.8.8...v1.9.0`](https://github.com/softvisio-node/argon2/compare/v1.8.8...v1.9.0)
+
 ### 1.8.8 (2025-03-26)
 
 Other changes:
