@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.2 (2025-06-07)
+
+**Other changes:**
+
+- \[PATCH] chore: update cli config (👬 zdm)
+
+Compare with the previous release: [v1.9.1](https://github.com/softvisio-node/argon2/compare/v1.9.1...v1.9.2)
+
 ### v1.9.1 (2025-06-01)
 
 **Other changes:**
