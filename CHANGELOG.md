@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.3 (2025-07-14)
+
+**Other changes:**
+
+- build(deps): bump argon2\@0.43.1 (● [8584ef0](https://github.com/softvisio-node/argon2/commit/8584ef0); 👬 zdm)
+
+Compare with the previous release: [v1.9.2](https://github.com/softvisio-node/argon2/compare/v1.9.2...v1.9.3)
+
 ### v1.9.2 (2025-06-07)
 
 **Other changes:**
