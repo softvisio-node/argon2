@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.4 (2025-07-16)
+
+**Other changes:**
+
+- docs: update (● [e2f0b44](https://github.com/softvisio-node/argon2/commit/e2f0b44); 👬 zdm)
+
+Compare with the previous release: [v1.9.3](https://github.com/softvisio-node/argon2/compare/v1.9.3...v1.9.4)
+
 ### v1.9.3 (2025-07-14)
 
 **Other changes:**
