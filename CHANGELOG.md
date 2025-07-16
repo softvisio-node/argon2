@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.5 (2025-07-16)
+
+**Other changes:**
+
+- style: lint (● [d5fcd3f](https://github.com/softvisio-node/argon2/commit/d5fcd3f); 👬 zdm)
+
+Compare with the previous release: [v1.9.4](https://github.com/softvisio-node/argon2/compare/v1.9.4...v1.9.5)
+
 ### v1.9.4 (2025-07-16)
 
 **Other changes:**
