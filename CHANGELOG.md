@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.6 (2025-07-22)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix editorconfig (● [9e61165](https://github.com/softvisio-node/argon2/commit/9e61165); 👬 zdm)
+
+Compare with the previous release: [v1.9.5](https://github.com/softvisio-node/argon2/compare/v1.9.5...v1.9.6)
+
 ### v1.9.5 (2025-07-16)
 
 **Other changes:**
