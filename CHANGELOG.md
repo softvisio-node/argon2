@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.8 (2025-07-23)
+
+**Other changes:**
+
+- style: update .npmrc (● [c662fd2](https://github.com/softvisio-node/argon2/commit/c662fd2); 👬 zdm)
+
+Compare with the previous release: [v1.9.7](https://github.com/softvisio-node/argon2/compare/v1.9.7...v1.9.8)
+
 ### v1.9.7 (2025-07-23)
 
 **Bug fixes:**
