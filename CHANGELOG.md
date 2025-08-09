@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.2 (2025-08-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix api (● [9e23fb7](https://github.com/softvisio-node/argon2/commit/9e23fb7); 👬 zdm)
+
+Compare with the previous release: [v1.10.1](https://github.com/softvisio-node/argon2/compare/v1.10.1...v1.10.2)
+
 ### v1.10.1 (2025-08-09)
 
 **Code refactoring:**
