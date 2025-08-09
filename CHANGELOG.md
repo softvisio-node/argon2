@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.4 (2025-08-09)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor phc api (● [b4abf7e](https://github.com/softvisio-node/argon2/commit/b4abf7e); 👬 zdm)
+
+Compare with the previous release: [v1.10.3](https://github.com/softvisio-node/argon2/compare/v1.10.3...v1.10.4)
+
 ### v1.10.3 (2025-08-09)
 
 **Code refactoring:**
