@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.10.0 (2025-08-09)
+
+**New features:**
+
+- \[MINOR] feat: add phc api (● [649fef5](https://github.com/softvisio-node/argon2/commit/649fef5); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update phc (● [1fbcb70](https://github.com/softvisio-node/argon2/commit/1fbcb70); 👬 zdm)
+
+Compare with the previous release: [v1.9.8](https://github.com/softvisio-node/argon2/compare/v1.9.8...v1.10.0)
+
 ### v1.9.8 (2025-07-23)
 
 **Other changes:**
