@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.1 (2025-08-09)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor api (● [971c7da](https://github.com/softvisio-node/argon2/commit/971c7da); 👬 zdm)
+
+Compare with the previous release: [v1.10.0](https://github.com/softvisio-node/argon2/compare/v1.10.0...v1.10.1)
+
 ### v1.10.0 (2025-08-09)
 
 **New features:**
