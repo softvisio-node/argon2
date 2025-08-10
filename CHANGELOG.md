@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.6 (2025-08-10)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: add phc saltEncoding option (● [cdf5032](https://github.com/softvisio-node/argon2/commit/cdf5032); 👬 zdm)
+
+Compare with the previous release: [v1.10.5](https://github.com/softvisio-node/argon2/compare/v1.10.5...v1.10.6)
+
 ### v1.10.5 (2025-08-10)
 
 **Code refactoring:**
