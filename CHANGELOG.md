@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.5 (2025-08-10)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: parse integer phc params (● [f5dbc12](https://github.com/softvisio-node/argon2/commit/f5dbc12); 👬 zdm)
+
+Compare with the previous release: [v1.10.4](https://github.com/softvisio-node/argon2/compare/v1.10.4...v1.10.5)
+
 ### v1.10.4 (2025-08-09)
 
 **Code refactoring:**
