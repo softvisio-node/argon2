@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.9 (2025-08-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update argon2 defaults (● [ae0e9b6](https://github.com/softvisio-node/argon2/commit/ae0e9b6); 👬 zdm)
+
+Compare with the previous release: [v1.10.8](https://github.com/softvisio-node/argon2/compare/v1.10.8...v1.10.9)
+
 ### v1.10.8 (2025-08-11)
 
 **Code refactoring:**
