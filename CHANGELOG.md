@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.10 (2025-08-12)
+
+**Other changes:**
+
+- build(deps): bunp actions/checkout\@v5 (● [8480174](https://github.com/softvisio-node/argon2/commit/8480174); 👬 zdm)
+
+Compare with the previous release: [v1.10.9](https://github.com/softvisio-node/argon2/compare/v1.10.9...v1.10.10)
+
 ### v1.10.9 (2025-08-11)
 
 **Code refactoring:**
