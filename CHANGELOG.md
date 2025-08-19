@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.0 (2025-08-19)
+
+**New features:**
+
+- \[MINOR] feat: update api (● [af39daf](https://github.com/softvisio-node/argon2/commit/af39daf), [d514f1a](https://github.com/softvisio-node/argon2/commit/d514f1a); 👬 zdm)
+
+Compare with the previous release: [v1.10.10](https://github.com/softvisio-node/argon2/compare/v1.10.10...v1.11.0)
+
 ### v1.10.10 (2025-08-12)
 
 **Other changes:**
