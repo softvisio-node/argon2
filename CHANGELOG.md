@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.1 (2025-08-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: rename keyId option to secret (● [ce9f59e](https://github.com/softvisio-node/argon2/commit/ce9f59e); 👬 zdm)
+
+Compare with the previous release: [v1.11.0](https://github.com/softvisio-node/argon2/compare/v1.11.0...v1.11.1)
+
 ### v1.11.0 (2025-08-19)
 
 **New features:**
