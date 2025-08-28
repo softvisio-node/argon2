@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.2 (2025-08-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix exports (● [54f2216](https://github.com/softvisio-node/argon2/commit/54f2216); 👬 zdm)
+
+Compare with the previous release: [v1.11.1](https://github.com/softvisio-node/argon2/compare/v1.11.1...v1.11.2)
+
 ### v1.11.1 (2025-08-28)
 
 **Bug fixes:**
