@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.4 (2025-10-15)
+
+**Other changes:**
+
+- build(deps): bump actions/setup-node\@6 (● [6eb98da](https://github.com/softvisio-node/argon2/commit/6eb98da); 👬 zdm)
+
+Compare with the previous release: [v1.11.3](https://github.com/softvisio-node/argon2/compare/v1.11.3...v1.11.4)
+
 ### v1.11.3 (2025-09-05)
 
 **Other changes:**
