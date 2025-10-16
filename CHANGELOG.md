@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.5 (2025-10-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use async copy (● [7cf0b57](https://github.com/softvisio-node/argon2/commit/7cf0b57); 👬 zdm)
+
+Compare with the previous release: [v1.11.4](https://github.com/softvisio-node/argon2/compare/v1.11.4...v1.11.5)
+
 ### v1.11.4 (2025-10-15)
 
 **Other changes:**
